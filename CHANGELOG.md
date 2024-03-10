@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.1](https://github.com/t04glovern/terraform-repo-template/compare/v1.0.0...v1.0.1) (2024-03-10)
+
+
+### Bug Fixes
+
+* Added example project ([1c3dd64](https://github.com/t04glovern/terraform-repo-template/commit/1c3dd64a8d346f2d8c58ca85d44f78382da2ddd7))
+* Added example project ([af456c7](https://github.com/t04glovern/terraform-repo-template/commit/af456c787d3fecf9f28233e2024ffafc55466c9b))
+* Added README ([bfb3ca5](https://github.com/t04glovern/terraform-repo-template/commit/bfb3ca59f0185414b51ceae25971aa43cfb802b6))
+* Added README ([1627329](https://github.com/t04glovern/terraform-repo-template/commit/162732958bd6462a2aeb642aa988a05531f4264e))
+
 ## 1.0.0 (2024-03-10)
 
 
