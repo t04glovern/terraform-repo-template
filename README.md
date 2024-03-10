@@ -8,8 +8,8 @@ Basic usage of this module is as follows:
 
 ```hcl
 module "example" {
-  source = "github.com/t04glovern/terraform-repo-template?ref=v1.0.0"
-  name   = "example"
+  source = "github.com/t04glovern/terraform-repo-template?ref=v1.0.1"
+  prefix = "example"
 }
 ```
 
