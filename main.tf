@@ -1,7 +1,3 @@
-resource "random_pet" "this" {
-  length = 4
-}
-
 module "redrive_function" {
   source = "terraform-aws-modules/lambda/aws"
 
