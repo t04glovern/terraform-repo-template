@@ -1,0 +1,43 @@
+{
+	"name": "Terraform - DevContainer",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/terraform:1": {
+			"version": "latest",
+			"installTFsec": true,
+			"installTerraformDocs": true
+		},
+		"ghcr.io/devcontainers-contrib/features/pre-commit:2": {}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"tfsec.tfsec",
+				"github.copilot"
+			],
+			"settings": {
+				"[terraform]": {
+					"editor.formatOnSave": true
+				},
+				"files.associations": {
+					"*.tfvars": "terraform"
+				}
+			}
+		}
+	},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "vscode"
+}
