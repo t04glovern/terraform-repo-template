@@ -4,7 +4,7 @@ output:
   file: README.md
   mode: replace
   template: |-
-    # terraform-aws-sqs-redrive
+    # terraform-repo-template
 
     Example template for creating a new Terraform module.
 
@@ -14,8 +14,8 @@ output:
 
     ```hcl
     module "example" {
-      source = "github.com/t04glovern/terraform-aws-sqs-redrive?ref=v1.0.0"
-      name   = "example"
+      source = "github.com/t04glovern/terraform-repo-template?ref=v1.0.1"
+      prefix = "example"
     }
     ```
 

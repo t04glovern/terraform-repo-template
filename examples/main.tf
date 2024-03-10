@@ -6,7 +6,12 @@ locals {
   region = "us-east-1"
 }
 
+resource "random_pet" "this" {
+  length = 2
+}
+
+
 module "example" {
   source = "../"
-  name   = "example"
+  prefix = random_pet.this.id
 }
