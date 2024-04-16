@@ -9,7 +9,7 @@ Basic usage of this module is as follows:
 ```hcl
 module "example" {
   source = "github.com/t04glovern/terraform-repo-template?ref=v1.0.1"
-  prefix = "example"
+  prefix = "abcdefg"
 }
 ```
 
@@ -37,28 +37,22 @@ pre-commit run --all-files
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 5.0 |
-| <a name="requirement_null"></a> [null](#requirement\_null) | >= 3.0 |
-| <a name="requirement_random"></a> [random](#requirement\_random) | >= 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | >= 5.0 |
-| <a name="provider_random"></a> [random](#provider\_random) | >= 3.0 |
 
 ## Modules
 
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_redrive_function"></a> [redrive\_function](#module\_redrive\_function) | terraform-aws-modules/lambda/aws | n/a |
+No modules.
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [random_pet.this](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/pet) | resource |
-| [aws_region.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) | data source |
+| [aws_s3_bucket.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
 
 ## Inputs
 

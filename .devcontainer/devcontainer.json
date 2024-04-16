@@ -18,6 +18,9 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
 
+	// Use 'postStartCommand' to run commands after the container is started.
+	"postStartCommand": "pre-commit install",
+
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
