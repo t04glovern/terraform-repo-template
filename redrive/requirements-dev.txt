@@ -1,3 +1,0 @@
-aws-lambda-powertools==2.35.1
-aws-lambda-powertools[tracer]==2.35.1
--r requirements.txt
